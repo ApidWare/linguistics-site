@@ -166,7 +166,7 @@ ul li a::after {
 
 }
 
-@media only screen and (max-width: 506px) {
+@media only screen and (max-width: 900px) {
     #titleText {
         visibility: hidden;
         position: relative;
