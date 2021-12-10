@@ -4,11 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html {
     font-family: 'Readex Pro', sans-serif;
 }
+
 li {
     font-size: 62.5%;
     list-style: none;
@@ -162,22 +160,6 @@ ul li a::after {
 
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-    }
-    
-    #titleText {
-        visibility: hidden;
-        position: relative;
-    }
-    #titleText:after {
-        visibility: visible;
-        position: absolute;
-        top: 0;
-        left: 0;
-        content: "Chamlikar's Academy";
-        color: red;
-    }
-    #title img {
-        margin-top: 20px;
     }
 
 }
