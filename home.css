@@ -165,6 +165,10 @@ ul li a::after {
     }
 
 }
+@media only screen and (max-width: 566px) {
+    #title {
+        content: "Chamlikar's Academy";
+    }
 
 @media only screen and (max-width: 542px) {
     #title {
