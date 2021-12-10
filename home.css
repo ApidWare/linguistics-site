@@ -7,6 +7,14 @@
     font-family: 'Readex Pro', sans-serif;
 }
 
+header {
+    position: fixed;
+    background: #fff;
+    border-bottom: 2px solid #888;
+    width: 100%;
+    z-index: 1;
+}
+
 li {
     font-size: 62.5%;
     list-style: none;
