@@ -163,10 +163,7 @@ ul li a::after {
     .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-
-}
-
-@media only screen and (max-width: 900px) {
+    
     #titleText {
         visibility: hidden;
         position: relative;
@@ -177,10 +174,12 @@ ul li a::after {
         top: 0;
         left: 0;
         content: "Chamlikar's Academy";
+        color: red;
     }
     #title img {
         margin-top: 20px;
     }
+
 }
 
 @media only screen and (max-width: 542px) {
