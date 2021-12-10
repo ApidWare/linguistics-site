@@ -165,10 +165,23 @@ ul li a::after {
     }
 
 }
-@media only screen and (max-width: 566px) {
-    #title {
+
+@media only screen and (max-width: 506px) {
+    #titleText {
+        visibility: hidden;
+        position: relative;
+    }
+    #titleText:after {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        left: 0;
         content: "Chamlikar's Academy";
     }
+    #title img {
+        margin-top: 20px;
+    }
+}
 
 @media only screen and (max-width: 542px) {
     #title {
